@@ -3,6 +3,7 @@ document.getElementById("loginButton").addEventListener("click", function () {
   const password = document.getElementById("loginPassword").value;
 
   // make a fetch call here
+  // endpoint to call: http://localhost:3000/login
   // handle response success/error accordingly
   // TIP: you can call ->  alert('msg') <-  to open a pop up to show success/failure
 });
@@ -14,6 +15,7 @@ document.getElementById("registerButton")
     const password = document.getElementById("registerPassword").value;
 
     // make a fetch call here
+    // endpoint to call: http://localhost:3000/register
     // handle response success/error accordingly
     // TIP: you can call ->  alert('msg') <-  to open a pop up to show success/failure
   });
